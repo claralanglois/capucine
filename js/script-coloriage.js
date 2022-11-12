@@ -50,7 +50,7 @@ $.each(coloriages, function(i, name){
 
    cont =  $('.grid-container');
   cont.append("<div class='coloriage' id='" + name + "'></div>")
-  $('#'+ name).makeSVGcolor("/assets/images/coloriage_svg/0" + nb  + ".svg")
+  $('#'+ name).makeSVGcolor("assets/images/icon/p7"  + ".svg")
   $('.coloriage').draggable();
 })
 
